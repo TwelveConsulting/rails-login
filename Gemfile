@@ -17,6 +17,9 @@ gem 'puma'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'rails_12factor', group: [:development, :production]
 gem 'newrelic_rpm'
+gem 'devise'
+gem 'devise-i18n'
+
 
 group :development, :test do
   gem 'rspec-rails'
